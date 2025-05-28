@@ -1,0 +1,69 @@
+---
+import Layout from '../layouts/Layout.astro';
+import "../styles/global.css";
+---
+
+<Layout title="Sobre Mí">
+	<div class="max-w-4xl mx-auto my-8 p-8 rounded-lg shadow-lg bg-gray-800 border border-gray-700">
+		<h1 class="text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-8">
+			Sobre Mí
+		</h1>
+
+		<div class="space-y-8">
+			<!-- Bio Section -->
+			<section>
+				<h2 class="text-2xl font-semibold text-white mb-4">Biografía</h2>
+				<p class="text-gray-300 leading-relaxed">
+					Soy un desarrollador web apasionado con experiencia en la creación de aplicaciones web modernas y responsivas. 
+					Mi enfoque se centra en construir soluciones elegantes y eficientes que proporcionen una excelente experiencia de usuario.
+				</p>
+			</section>
+
+			<!-- Skills Section -->
+			<section>
+				<h2 class="text-2xl font-semibold text-white mb-4">Habilidades Técnicas</h2>
+				<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+					<div class="bg-gray-700 p-4 rounded-lg">
+						<h3 class="text-lg font-medium text-white mb-2">Frontend</h3>
+						<ul class="space-y-2 text-gray-300">
+							<li>• React.js / Vue.js</li>
+							<li>• TypeScript / JavaScript</li>
+							<li>• HTML5 / CSS3</li>
+							<li>• Tailwind CSS</li>
+						</ul>
+					</div>
+					<div class="bg-gray-700 p-4 rounded-lg">
+						<h3 class="text-lg font-medium text-white mb-2">Backend</h3>
+						<ul class="space-y-2 text-gray-300">
+							<li>• Node.js</li>
+							<li>• Express.js</li>
+							<li>• MongoDB</li>
+							<li>• RESTful APIs</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<!-- Experience Section -->
+			<section>
+				<h2 class="text-2xl font-semibold text-white mb-4">Experiencia</h2>
+				<div class="space-y-4">
+					<div class="bg-gray-700 p-4 rounded-lg">
+						<h3 class="text-lg font-medium text-white">Desarrollador Web Senior</h3>
+						<p class="text-gray-400">2020 - Presente</p>
+						<p class="text-gray-300 mt-2">
+							Liderando el desarrollo de aplicaciones web empresariales utilizando tecnologías modernas y mejores prácticas.
+						</p>
+					</div>
+					<div class="bg-gray-700 p-4 rounded-lg">
+						<h3 class="text-lg font-medium text-white">Desarrollador Frontend</h3>
+						<p class="text-gray-400">2018 - 2020</p>
+						<p class="text-gray-300 mt-2">
+							Desarrollo de interfaces de usuario interactivas y responsivas para diversas aplicaciones web.
+						</p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+</Layout> 

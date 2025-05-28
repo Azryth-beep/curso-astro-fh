@@ -1,0 +1,58 @@
+---
+import Layout from '../layouts/Layout.astro';
+import "../styles/global.css";
+---
+
+<Layout title="Proyectos">
+	<div class="max-w-4xl mx-auto my-8 p-8 rounded-lg shadow-lg bg-gray-800 border border-gray-700">
+		<h1 class="text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-8">
+			Mis Proyectos
+		</h1>
+
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+			<!-- Project Card 1 -->
+			<div class="bg-gray-700 rounded-lg p-6 hover:transform hover:scale-105 transition-transform">
+				<h2 class="text-xl font-semibold text-white mb-2">E-commerce Platform</h2>
+				<p class="text-gray-300 mb-4">Una plataforma de comercio electrónico moderna construida con React y Node.js.</p>
+				<div class="flex flex-wrap gap-2">
+					<span class="px-2 py-1 bg-blue-500 rounded text-sm">React</span>
+					<span class="px-2 py-1 bg-green-500 rounded text-sm">Node.js</span>
+					<span class="px-2 py-1 bg-yellow-500 rounded text-sm">MongoDB</span>
+				</div>
+			</div>
+
+			<!-- Project Card 2 -->
+			<div class="bg-gray-700 rounded-lg p-6 hover:transform hover:scale-105 transition-transform">
+				<h2 class="text-xl font-semibold text-white mb-2">Task Management App</h2>
+				<p class="text-gray-300 mb-4">Aplicación de gestión de tareas con autenticación y sincronización en tiempo real.</p>
+				<div class="flex flex-wrap gap-2">
+					<span class="px-2 py-1 bg-purple-500 rounded text-sm">Vue.js</span>
+					<span class="px-2 py-1 bg-red-500 rounded text-sm">Firebase</span>
+					<span class="px-2 py-1 bg-blue-500 rounded text-sm">Tailwind</span>
+				</div>
+			</div>
+
+			<!-- Project Card 3 -->
+			<div class="bg-gray-700 rounded-lg p-6 hover:transform hover:scale-105 transition-transform">
+				<h2 class="text-xl font-semibold text-white mb-2">Portfolio Website</h2>
+				<p class="text-gray-300 mb-4">Sitio web personal construido con Astro y Tailwind CSS.</p>
+				<div class="flex flex-wrap gap-2">
+					<span class="px-2 py-1 bg-orange-500 rounded text-sm">Astro</span>
+					<span class="px-2 py-1 bg-blue-500 rounded text-sm">Tailwind</span>
+					<span class="px-2 py-1 bg-green-500 rounded text-sm">TypeScript</span>
+				</div>
+			</div>
+
+			<!-- Project Card 4 -->
+			<div class="bg-gray-700 rounded-lg p-6 hover:transform hover:scale-105 transition-transform">
+				<h2 class="text-xl font-semibold text-white mb-2">Weather Dashboard</h2>
+				<p class="text-gray-300 mb-4">Dashboard meteorológico con visualización de datos en tiempo real.</p>
+				<div class="flex flex-wrap gap-2">
+					<span class="px-2 py-1 bg-yellow-500 rounded text-sm">JavaScript</span>
+					<span class="px-2 py-1 bg-blue-500 rounded text-sm">Chart.js</span>
+					<span class="px-2 py-1 bg-green-500 rounded text-sm">API REST</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</Layout> 
