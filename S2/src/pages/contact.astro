@@ -1,12 +1,25 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import "../styles/global.css";
+import placeHolderImage from "../assets/images/images (1).png"
 ---
 
 <Layout title="Contacto">
   <div
     class="max-w-4xl mx-auto my-8 p-8 rounded-lg shadow-lg bg-gray-800 border border-gray-700"
   >
+    <!-- Added image with transition:name -->
+    <div class="flex justify-center mb-8">
+      <a href="/" class="group">
+        <img 
+          src={placeHolderImage.src}
+          alt="Profile Image"
+          class="w-48 h-48 rounded-full object-cover transition-transform group-hover:scale-105"
+          transition:name="profile-image"
+        />
+      </a>
+    </div>
+
     <h1
       class="text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-8"
     >
